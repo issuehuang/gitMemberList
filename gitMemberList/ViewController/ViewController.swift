@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func pressGitListBtn(_ sender: Any) {
+        performSegue(withIdentifier: "toUserListSegue", sender: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
 
 
