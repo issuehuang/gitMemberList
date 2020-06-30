@@ -20,6 +20,8 @@
 		577E48B224AAEEFF00AD6BC9 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E48B124AAEEFF00AD6BC9 /* UserListViewController.swift */; };
 		577E48B524AAEF3200AD6BC9 /* ConnectionTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E48B424AAEF3200AD6BC9 /* ConnectionTools.swift */; };
 		577E48B724AAF6B100AD6BC9 /* UserProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E48B624AAF6B100AD6BC9 /* UserProfileDetailViewController.swift */; };
+		577E48BA24AAF84300AD6BC9 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E48B924AAF84300AD6BC9 /* UserListViewModel.swift */; };
+		577E48BC24AAF88000AD6BC9 /* UserProfileDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E48BB24AAF88000AD6BC9 /* UserProfileDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		577E48B124AAEEFF00AD6BC9 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		577E48B424AAEF3200AD6BC9 /* ConnectionTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionTools.swift; sourceTree = "<group>"; };
 		577E48B624AAF6B100AD6BC9 /* UserProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileDetailViewController.swift; sourceTree = "<group>"; };
+		577E48B924AAF84300AD6BC9 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		577E48BB24AAF88000AD6BC9 /* UserProfileDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,8 @@
 		577E48B824AAF7C800AD6BC9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				577E48B924AAF84300AD6BC9 /* UserListViewModel.swift */,
+				577E48BB24AAF88000AD6BC9 /* UserProfileDetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -310,9 +316,11 @@
 				577E488024AAEC4700AD6BC9 /* ViewController.swift in Sources */,
 				577E48B724AAF6B100AD6BC9 /* UserProfileDetailViewController.swift in Sources */,
 				577E48B524AAEF3200AD6BC9 /* ConnectionTools.swift in Sources */,
+				577E48BA24AAF84300AD6BC9 /* UserListViewModel.swift in Sources */,
 				577E487C24AAEC4700AD6BC9 /* AppDelegate.swift in Sources */,
 				577E48AD24AAEE0700AD6BC9 /* UserProfileListModel.swift in Sources */,
 				577E487E24AAEC4700AD6BC9 /* SceneDelegate.swift in Sources */,
+				577E48BC24AAF88000AD6BC9 /* UserProfileDetailViewModel.swift in Sources */,
 				577E48B224AAEEFF00AD6BC9 /* UserListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
