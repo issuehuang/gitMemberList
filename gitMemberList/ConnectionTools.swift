@@ -13,9 +13,9 @@ class ConnectionTools: NSObject {
 
     func getUserList(completion:@escaping(_ isSuccess:Bool,_ error:Error?, [UserProfileListModel]?)->()){
         
-        let urlStr = "https://api.github.com/users?since=0"
-
-        requestWithURL(urlString: urlStr, parameters: [:]) { (data, error) in
+        let urlStr = "https://api.github.com/users"
+        let paramDic = ["since":"0","per_page":"20"]
+        requestWithURL(urlString: urlStr, parameters: paramDic) { (data, error) in
             guard let data = data else {
                         completion(false, error, nil)
                         return
@@ -34,7 +34,7 @@ class ConnectionTools: NSObject {
         }
     }
     func getUserDetail(loginStr:String,completion:@escaping (_ isSuccess:Bool, _ error:Error?, UserProfileDetailModel?) -> ()) {
-        let urlStr = "https://api.github.com/users\(loginStr)"
+        let urlStr = "https://api.github.com/users/\(loginStr)"
 
                requestWithURL(urlString: urlStr, parameters: [:]) { (data, error) in
                    guard let data = data else {
