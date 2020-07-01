@@ -2,9 +2,10 @@
 ---
 - Development environment Xcode 11.3.1 and above
 - Development language Swift 5.2
-##Design Pattern
+## Design Pattern
 - MVVM
-##Third Part libraryi
+
+## Third Part libraryi
 - use [Swift Packages](https://swift.org/package-manager/)
 - [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
 
