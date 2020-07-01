@@ -9,10 +9,23 @@
 import UIKit
 
 class UserListTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var userAvator: UIImageView!
+    
+    @IBOutlet weak var userNameLabel: UILabel!
+    var userListCellModel:UserProfileListModel?{
+        didSet{
+            if  let url = URL(string: userListCellModel?.avatar_url ?? "") {
+                 let data = try! Data(contentsOf: url )
+                userAvator.image = UIImage(data: data)
+            }
+            userNameLabel.text = userListCellModel?.login
 
+        }
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.userAvator.layer.cornerRadius = 25
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
