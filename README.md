@@ -4,7 +4,7 @@
 ## Design Pattern
 - MVVM
 
-## Third Part libraryi
+## Third Part library
 - use [Swift Packages](https://swift.org/package-manager/)
 - [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
 
