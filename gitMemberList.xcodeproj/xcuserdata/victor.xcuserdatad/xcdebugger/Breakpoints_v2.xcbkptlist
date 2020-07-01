@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A45B2698-24F9-436B-9569-FA17EB301F87"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD1EC770-1855-49AB-9460-505B9F8B36DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gitMemberList/ViewModel/UserProfileDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "initFetch(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "957D5BF3-2598-4FCB-BEBE-119469B6911F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gitMemberList/ConnectionTools.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getUserDetail(loginStr:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFB185B9-61C0-4377-9B84-522AAB6F10B8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gitMemberList/ConnectionTools.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getUserList(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BFB185B9-61C0-4377-9B84-522AAB6F10B8 - 4f0f31459a2013be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "gitMemberList.ConnectionTools.getUserList(completion: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;Swift.Array&lt;gitMemberList.UserProfileListModel&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "gitMemberList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/JOB/gitMemberList/gitMemberList/ConnectionTools.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "365">
+               </Location>
+               <Location
+                  uuid = "BFB185B9-61C0-4377-9B84-522AAB6F10B8 - 947fe4dc8de160e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in gitMemberList.ConnectionTools.getUserList(completion: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;Swift.Array&lt;gitMemberList.UserProfileListModel&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "gitMemberList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/JOB/gitMemberList/gitMemberList/ConnectionTools.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

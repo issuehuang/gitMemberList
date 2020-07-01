@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,7 @@
 		577E48BC24AAF88000AD6BC9 /* UserProfileDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E48BB24AAF88000AD6BC9 /* UserProfileDetailViewModel.swift */; };
 		577E48C024AB005000AD6BC9 /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E48BE24AB005000AD6BC9 /* UserListTableViewCell.swift */; };
 		577E48C124AB005000AD6BC9 /* UserListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577E48BF24AB005000AD6BC9 /* UserListTableViewCell.xib */; };
+		577E48C624ABD02B00AD6BC9 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 577E48C524ABD02B00AD6BC9 /* JGProgressHUD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577E48C624ABD02B00AD6BC9 /* JGProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +213,9 @@
 			dependencies = (
 			);
 			name = gitMemberList;
+			packageProductDependencies = (
+				577E48C524ABD02B00AD6BC9 /* JGProgressHUD */,
+			);
 			productName = gitMemberList;
 			productReference = 577E487824AAEC4700AD6BC9 /* gitMemberList.app */;
 			productType = "com.apple.product-type.application";
@@ -283,6 +288,9 @@
 				Base,
 			);
 			mainGroup = 577E486F24AAEC4700AD6BC9;
+			packageReferences = (
+				577E48C424ABD02B00AD6BC9 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
 			productRefGroup = 577E487924AAEC4700AD6BC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -666,6 +674,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		577E48C424ABD02B00AD6BC9 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		577E48C524ABD02B00AD6BC9 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 577E48C424ABD02B00AD6BC9 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 577E487024AAEC4700AD6BC9 /* Project object */;
 }
